@@ -89,6 +89,6 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
-
+    <include layout="@layout/modelo_livro"></include>
 
 </LinearLayout>
