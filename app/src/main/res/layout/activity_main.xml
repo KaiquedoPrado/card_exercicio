@@ -27,7 +27,7 @@
                 android:layout_width="150dp"
                 android:layout_height="180dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/neymar" />
+                android:src="@drawable/neyolim" />
 
 
             <LinearLayout
@@ -38,35 +38,37 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:text="Neymar"
-                    android:textColor="#6AFB0A"
+                    android:textColor="#008888"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:text="O Neymar te inspira?"
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <LinearLayout
-                    android:layout_margin="20dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginBottom="10dp"
                     android:orientation="horizontal">
 
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:numStars="1" />
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="3" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="8.5" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.5" />
 
                 </LinearLayout>
 
@@ -89,6 +91,7 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
     <include layout="@layout/modelo_livro"></include>
 
 </LinearLayout>
